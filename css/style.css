@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #de0909;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #0d0dea;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -46,7 +46,7 @@ header {
 
 header .container {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -87,7 +87,7 @@ header .container {
 
 .hero-btn {
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 1.5rem 3rem;
 }
 
